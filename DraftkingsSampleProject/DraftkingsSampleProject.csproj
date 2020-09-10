@@ -1,0 +1,82 @@
+<Project>
+  <!-- Importing explicitly the SDK properties -->
+  <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
+
+  <!-- Default -->
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <!-- Importing explicitly the SDK targets thus allowing override -->
+  <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
+
+  <!-- Custom -->
+  <PropertyGroup>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <TransformOnBuild>true</TransformOnBuild>
+    <TransformOutOfDateOnly>false</TransformOutOfDateOnly>
+    <OverwriteReadOnlyOutputFiles>true</OverwriteReadOnlyOutputFiles>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ImageDiff-NetStandard" Version="1.1.0" />
+    <PackageReference Include="System.CodeDom" Version="4.6.0" />
+    <PackageReference Include="NUnit" Version="3.11.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.11.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="2.2.4" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.2.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+    <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.12" />
+    <PackageReference Include="Selenium.Firefox.WebDriver" Version="0.23.0" PrivateAssets="None" />
+    <PackageReference Include="Selenium.Support" Version="4.0.0-alpha03" />
+    <PackageReference Include="Appium.WebDriver" Version="5.1.4" />
+  </ItemGroup>
+</Project>
+
+<!--<Project>
+  --><!-- Importing explicitly the SDK properties --><!--
+  <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
+
+  --><!-- Default --><!--
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  --><!-- Importing explicitly the SDK targets thus allowing override --><!--
+  <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
+
+  --><!-- Custom --><!--
+  <PropertyGroup>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <TransformOnBuild>true</TransformOnBuild>
+    <TransformOutOfDateOnly>false</TransformOutOfDateOnly>
+    <OverwriteReadOnlyOutputFiles>true</OverwriteReadOnlyOutputFiles>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ImageDiff-NetStandard" Version="1.1.0" />
+    <PackageReference Include="System.CodeDom" Version="4.6.0" />
+    <PackageReference Include="NUnit" Version="3.11.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.11.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="2.2.4" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.2.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />>
+    <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.12" />
+    <PackageReference Include="Selenium.Firefox.WebDriver" Version="0.23.0" PrivateAssets="None" />
+    <PackageReference Include="Selenium.Support" Version="4.0.0-alpha03" />
+    <PackageReference Include="Appium.WebDriver" Version="5.1.4" />
+    --><!--<PackageReference Include="SBTech.TAF.Extensions.Appium.WebDriver" Version="4.1.2" />--><!--
+  </ItemGroup>
+</Project>-->
+
+

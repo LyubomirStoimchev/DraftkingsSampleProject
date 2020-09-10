@@ -1,0 +1,119 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\lyubomir.st\\source\\repos\\DraftkingsSampleProject\\DraftkingsSampleProject\\DraftkingsSampleProject.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\lyubomir.st\\source\\repos\\DraftkingsSampleProject\\DraftkingsSampleProject\\DraftkingsSampleProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lyubomir.st\\source\\repos\\DraftkingsSampleProject\\DraftkingsSampleProject\\DraftkingsSampleProject.csproj",
+        "projectName": "DraftkingsSampleProject",
+        "projectPath": "C:\\Users\\lyubomir.st\\source\\repos\\DraftkingsSampleProject\\DraftkingsSampleProject\\DraftkingsSampleProject.csproj",
+        "packagesPath": "C:\\Users\\lyubomir.st\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lyubomir.st\\source\\repos\\DraftkingsSampleProject\\DraftkingsSampleProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lyubomir.st\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\custom_nugets": {},
+          "http://artifactory.sbtech.com/artifactory/api/nuget/SBTech-nuget": {},
+          "http://artifactory.sbtech.com/artifactory/api/nuget/SBTechSymbols": {},
+          "http://artifactory.sbtech.com:8081/artifactory/api/nuget/SBTech": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Appium.WebDriver": {
+              "target": "Package",
+              "version": "[5.1.4, )"
+            },
+            "DotNetSeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.12, )"
+            },
+            "ImageDiff-NetStandard": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "Selenium.Firefox.WebDriver": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[0.23.0, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.0.0-alpha03, )"
+            },
+            "System.CodeDom": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
